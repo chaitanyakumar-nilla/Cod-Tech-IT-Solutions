@@ -1,1 +1,77 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(211, 207, 203);
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.3);
+    width: 50%;
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 100px;
+   justify-content: center;
+    height: 700px;
+  }
+ 
+  
+  h1 {
+    margin-bottom: 15px;
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  .about {
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-left: 100px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .about p {
+    font-size: 20px;
+  }
+  
+  button {
+    width: 160px;
+    height: 30px;
+    margin-top: 20px;
+    background-color:  rgba(57, 62, 166, 0.467);;
+    border-radius: 5px;
+    border: 1px solid red;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: blue;
+  }
+  
+  .icon {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  
+  .icon a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: rgb(50, 12, 240);
+  }
+  
+  .icon a:hover {
+    color: rgb(10, 158, 251);
+  }
+  
